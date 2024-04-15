@@ -460,7 +460,7 @@ static const struct sfp_quirk sfp_quirks[] = {
 		  sfp_fixup_ignore_tx_fault),
 
 	// FS 2.5G Base-T
-	SFP_QUIRK_M("FS", "SFP-2.5G-T", sfp_quirk_oem_2_5g),
+	SFP_QUIRK_F("FS", "SFP-2.5G-T", sfp_quirk_oem_2_5g),
 
 	// Lantech 8330-262D-E can operate at 2500base-X, but incorrectly report
 	// 2500MBd NRZ in their EEPROM
